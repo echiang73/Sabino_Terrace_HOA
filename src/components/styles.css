@@ -1,26 +1,26 @@
-/* .App {
+.App {
   font-family: sans-serif;
   text-align: center;
-} */
+}
 
-/* .form-input {
+.form-input {
   margin: 0 auto;
   height: 500px;
   width: 500px;
-} */
+}
 
-/* .form-inside-input {
+.form-inside-input {
   height: 500px;
   width: 200px;
   margin: 0 auto;
-} */
+}
 
 
 /* for second template */
 
-.App {
+/* .App {
   font-family: sans-serif;
-  /* text-align: center; */
+  text-align: center;
 }
 
 h1 {
@@ -42,13 +42,15 @@ input {
 label {
   margin-bottom: 5px;
   height: 22px;
-}
+} */
 
 input {
   margin-bottom: 20px;
   padding: 10px;
   border-radius: 3px;
   border: 1px solid #777;
+  width: 300px;
+  
 }
 
 input.error {
@@ -57,9 +59,9 @@ input.error {
 
 .input-feedback {
   color: rgb(235, 54, 54);
-  margin-top: -15px;
+  /* margin-top: -15px; */
   font-size: 14px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 button {
@@ -68,6 +70,7 @@ button {
   color: white;
   border: 1px solid rgb(70, 153, 179);
   background-color: 250ms;
+  display: block; 
 }
 
 button:hover {

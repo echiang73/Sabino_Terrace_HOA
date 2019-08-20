@@ -64,7 +64,7 @@ render() {
 			<form className="form-horizontal">
 			<div className="form-group">
 					<div className="col-1 col-ml-auto">
-						<label className="form-label" htmlFor="firstName">First Name</label>
+						<label className="form-label" htmlFor="firstName">First Name </label>
 					</div>
 					<div className="col-3 col-mr-auto">
 						<input className="form-input"
@@ -80,7 +80,7 @@ render() {
 				</div>
 				<div className="form-group">
 					<div className="col-1 col-ml-auto">
-						<label className="form-label" htmlFor="lastName">Last Name</label>
+						<label className="form-label" htmlFor="lastName">Last Name </label>
 					</div>
 					<div className="col-3 col-mr-auto">
 						<input className="form-input"
@@ -96,7 +96,7 @@ render() {
 				</div>
 				<div className="form-group">
 					<div className="col-1 col-ml-auto">
-						<label className="form-label" htmlFor="email">Email</label>
+						<label className="form-label" htmlFor="email">Email </label>
 					</div>
 					<div className="col-3 col-mr-auto">
 						<input className="form-input"
@@ -127,7 +127,7 @@ render() {
 				</div> */}
 				<div className="form-group">
 					<div className="col-1 col-ml-auto">
-						<label className="form-label" htmlFor="password">Password: </label>
+						<label className="form-label" htmlFor="password">Password </label>
 					</div>
 					<div className="col-3 col-mr-auto">
 						<input className="form-input"
@@ -142,7 +142,7 @@ render() {
 				</div>
 				<div className="form-group">
 					<div className="col-1 col-ml-auto">
-						<label className="form-label" htmlFor="password">Confirm Password: </label>
+						<label className="form-label" htmlFor="password">Confirm Password </label>
 					</div>
 					<div className="col-3 col-mr-auto">
 						<input className="form-input"

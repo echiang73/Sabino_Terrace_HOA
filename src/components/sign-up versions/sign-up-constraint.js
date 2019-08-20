@@ -2,7 +2,6 @@ import React from "react";
 import { Formik } from "formik";
 import * as Yup from "yup";
 import "./styles.css";
-import axios from 'axios'
 
 const Signup = () => (
   <Formik
@@ -13,33 +12,7 @@ const Signup = () => (
       //   setSubmitting(false);
       // }, 500);
       console.log("Submitting");
-      console.log(values);
-
-      //request to server to add a new username/password
-      axios.post('/user/', {
-        // username: this.state.username,
-        // password: this.state.password
-        firstName: values.firstName,
-        lastName: values.lastName,
-        username: (values.firstName + values.lastName).toLowerCase(),
-        email: values.email,
-        password: values.password
-      })
-        .then(response => {
-          console.log(response)
-          if (!response.data.errmsg) {
-            console.log('successful signup')
-            // this.setState({ //redirect to login page
-              // redirectTo: '/login'
-            // })
-          } else {
-            console.log('username already taken')
-          }
-        }).catch(error => {
-          console.log('signup error: ')
-          console.log(error)
-
-        })
+      // console.log(values);
     }}
 
     //********Using Yum for validation********/
@@ -165,8 +138,8 @@ const Signup = () => (
 
             <div className="form-group ">
               <div className="col-7"></div>
-              <button type="submit" disabled={isSubmitting}
-                className="btn btn-primary col-1 col-mr-auto"
+              <button type="submit" disabled={isSubmitting} 
+              className="btn btn-primary col-1 col-mr-auto"
               >
                 Signup
               </button>
